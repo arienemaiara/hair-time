@@ -1,0 +1,11 @@
+version: '2'
+services:
+  postgres:
+    image: postgres
+    environment: []
+    ports:
+      - '5433:5432'
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
